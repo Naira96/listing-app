@@ -26,14 +26,7 @@ public class ListingController {
     public Listing getByUserEmail(@PathVariable String email) throws ResourceNotFoundException {
         return listingService.getByUserEmail(email);
     }
-//    @GetMapping("/byUser/{email}")
-//    public ResponseEntity getByUserEmail(@PathVariable String email) throws ResourceNotFoundException {
-//        if (listingService.getByUserEmail(email) == null) {
-//            return ResponseEntity.notFound().build();
-//        }
-//       listingService.getByUserEmail(email);
-//        return ResponseEntity.ok().build();
-//    }
+
 
 
 
